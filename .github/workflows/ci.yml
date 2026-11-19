@@ -1,0 +1,67 @@
+# FixIT Trajet : compile l'app iPhone (IPA) sur un Mac GitHub et teste le site avec les vrais services.
+# Résultats publiés sur les branches « resultats-ipa » et « resultats-tests ».
+name: CI FixIT
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build-ipa:
+    runs-on: macos-15
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - run: unzip -q -o fixit-trajet.zip
+      - run: brew install xcodegen
+      - name: Compiler l'app (sans signature)
+        working-directory: ios
+        run: |
+          xcodegen generate
+          mkdir -p ../out
+          xcodebuild -version | tee ../out/xcode-version.txt
+          xcodebuild -project FixitTrajet.xcodeproj -target FixitTrajet -configuration Release -sdk iphoneos \
+            SYMROOT="$PWD/build" CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY="" build > ../out/build.log 2>&1 \
+            || { grep -E "error:" ../out/build.log | sort -u | head -80 > ../out/errors.txt; exit 1; }
+          grep -E "warning:" ../out/build.log | grep "FixitTrajet/" | sort -u > ../out/warnings.txt || true
+          rm -rf Payload && mkdir Payload && cp -R build/Release-iphoneos/FixitTrajet.app Payload/
+          zip -qry ../out/FixIT-Trajet.ipa Payload
+          /usr/libexec/PlistBuddy -c Print Payload/FixitTrajet.app/Info.plist > ../out/Info-plist.txt
+      - uses: actions/upload-artifact@v4
+        if: success()
+        with: { name: FixIT-Trajet-ipa, path: out/FixIT-Trajet.ipa }
+      - name: Publier
+        if: always()
+        run: |
+          mkdir -p out && cd out && echo "${{ job.status }} run ${{ github.run_id }}" > STATUS.txt
+          git init -q -b resultats-ipa && git config user.name ci && git config user.email ci@users.noreply.github.com
+          git add -A && git commit -qm "IPA ${{ github.run_id }}"
+          git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" resultats-ipa
+  test-site:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - run: unzip -q -o fixit-trajet.zip && bash tools/vendor.sh
+      - uses: shivammathur/setup-php@v2
+        with: { php-version: "8.3", extensions: "pdo_sqlite, sqlite3, curl, mbstring", coverage: none }
+      - uses: actions/setup-node@v4
+        with: { node-version: "20" }
+      - run: npm init -y >/dev/null && npm i playwright@1.49.1 >/dev/null && npx playwright install --with-deps chromium >/dev/null
+      - name: Services réels (IGN, OSRM, OpenFreeMap)
+        run: mkdir -p results && php tests/api-check.php | tee results/api-check.txt
+      - name: Test complet dans un iPhone simulé
+        run: |
+          for f in $(find site -name "*.php"); do php -l "$f" >/dev/null || exit 1; done
+          cp tests/router.php site/router.php
+          (cd site && php -S 127.0.0.1:8088 router.php > ../results/php-server.log 2>&1 &)
+          sleep 2
+          OUT=results node tests/e2e-real.js
+      - name: Publier
+        if: always()
+        run: |
+          mkdir -p results && cd results && echo "${{ job.status }} run ${{ github.run_id }}" > STATUS.txt
+          git init -q -b resultats-tests && git config user.name ci && git config user.email ci@users.noreply.github.com
+          git add -A && git commit -qm "Tests ${{ github.run_id }}"
+          git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" resultats-tests
