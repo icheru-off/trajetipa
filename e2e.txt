@@ -1,0 +1,8 @@
+Domicile géocodé : 47.936882, 2.452767 ❌ à 60 km de La Grande-Paroisse
+Adresse client : 2 Avenue Thiers 77000 Melun|48.532599|2.655953
+Après départ (statut|fournisseur|km|min brutes|s restantes) : enroute|osrm|88.6|75|7088
+Points de l'itinéraire réel : 500
+Page client : En route vers chez vous Votre technicien arrive dans 58min Arrivée estimée vers 18h33 Heure estimée (entre 18h25 et 18h47), calculée selon l'itinéraire, les limitations de vitesse et la circulation constatée pendant le trajet. Elle peut varier.
+Voiture FixIT sur la carte : 1
+Statut à l'adresse du client : arrived
+Erreurs navigateur : aucune

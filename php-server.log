@@ -1,0 +1,529 @@
+[Thu Nov 19 16:34:38 2026] PHP 8.3.37 Development Server (http://127.0.0.1:8088) started
+[Thu Nov 19 16:34:41 2026] 127.0.0.1:56566 Accepted
+[Thu Nov 19 16:34:41 2026] 127.0.0.1:56566 [200]: GET /install.php
+[Thu Nov 19 16:34:41 2026] 127.0.0.1:56566 Closing
+[Thu Nov 19 16:34:41 2026] 127.0.0.1:56570 Accepted
+[Thu Nov 19 16:34:41 2026] 127.0.0.1:56572 Accepted
+[Thu Nov 19 16:34:41 2026] 127.0.0.1:56576 Accepted
+[Thu Nov 19 16:34:41 2026] 127.0.0.1:56570 [200]: GET /assets/css/app.css?v=96790041
+[Thu Nov 19 16:34:41 2026] 127.0.0.1:56572 [200]: GET /assets/img/logo-light.png?v=89bb2fe9
+[Thu Nov 19 16:34:41 2026] 127.0.0.1:56576 [200]: GET /assets/js/admin.js?v=96790041
+[Thu Nov 19 16:34:41 2026] 127.0.0.1:56570 Closing
+[Thu Nov 19 16:34:41 2026] 127.0.0.1:56572 Closing
+[Thu Nov 19 16:34:41 2026] 127.0.0.1:56576 Closing
+[Thu Nov 19 16:34:41 2026] 127.0.0.1:56586 Accepted
+[Thu Nov 19 16:34:41 2026] 127.0.0.1:56594 Accepted
+[Thu Nov 19 16:34:41 2026] 127.0.0.1:56600 Accepted
+[Thu Nov 19 16:34:41 2026] 127.0.0.1:56602 Accepted
+[Thu Nov 19 16:34:41 2026] 127.0.0.1:56586 [200]: GET /assets/fonts/ibm-plex-mono-latin-600-normal.woff2
+[Thu Nov 19 16:34:41 2026] 127.0.0.1:56594 [200]: GET /assets/fonts/bricolage-grotesque-latin-800-normal.woff2
+[Thu Nov 19 16:34:41 2026] 127.0.0.1:56600 [200]: GET /assets/fonts/ibm-plex-sans-latin-400-normal.woff2
+[Thu Nov 19 16:34:41 2026] 127.0.0.1:56602 [200]: GET /assets/fonts/ibm-plex-sans-latin-600-normal.woff2
+[Thu Nov 19 16:34:41 2026] 127.0.0.1:56586 Closing
+[Thu Nov 19 16:34:41 2026] 127.0.0.1:56594 Closing
+[Thu Nov 19 16:34:41 2026] 127.0.0.1:56600 Closing
+[Thu Nov 19 16:34:41 2026] 127.0.0.1:56602 Closing
+[Thu Nov 19 16:34:42 2026] 127.0.0.1:54002 Accepted
+[Thu Nov 19 16:34:42 2026] 127.0.0.1:54002 [200]: GET /assets/fonts/ibm-plex-sans-latin-500-normal.woff2
+[Thu Nov 19 16:34:42 2026] 127.0.0.1:54002 Closing
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54018 Accepted
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54018 [302]: POST /install.php
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54018 Closing
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54030 Accepted
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54030 [200]: GET /admin/
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54030 Closing
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54038 Accepted
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54042 Accepted
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54054 Accepted
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54064 Accepted
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54038 [200]: GET /assets/css/app.css?v=96790041
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54042 [200]: GET /assets/img/mascotte.webp?v=473d0b93
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54054 [200]: GET /assets/img/logo-light.png?v=89bb2fe9
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54064 [200]: GET /assets/js/admin.js?v=96790041
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54038 Closing
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54042 Closing
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54054 Closing
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54064 Closing
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54068 Accepted
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54068 [200]: GET /assets/fonts/ibm-plex-sans-latin-600-normal.woff2
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54068 Closing
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54082 Accepted
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54094 Accepted
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54098 Accepted
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54104 Accepted
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54082 [200]: GET /assets/fonts/ibm-plex-sans-latin-500-normal.woff2
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54094 [200]: GET /assets/fonts/ibm-plex-mono-latin-600-normal.woff2
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54098 [200]: GET /assets/fonts/bricolage-grotesque-latin-800-normal.woff2
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54104 [200]: GET /assets/fonts/ibm-plex-sans-latin-400-normal.woff2
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54082 Closing
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54094 Closing
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54098 Closing
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54104 Closing
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54120 Accepted
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54120 [200]: GET /admin/edit.php
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54120 Closing
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54132 Accepted
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54134 Accepted
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54140 Accepted
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54132 [200]: GET /assets/css/app.css?v=96790041
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54134 [200]: GET /assets/img/logo-light.png?v=89bb2fe9
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54140 [200]: GET /assets/js/admin.js?v=96790041
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54132 Closing
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54134 Closing
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54140 Closing
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54150 Accepted
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54164 Accepted
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54150 [200]: GET /assets/fonts/ibm-plex-sans-latin-400-normal.woff2
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54164 [200]: GET /assets/fonts/ibm-plex-sans-latin-600-normal.woff2
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54150 Closing
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54164 Closing
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54172 Accepted
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54180 Accepted
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54182 Accepted
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54172 [200]: GET /assets/fonts/ibm-plex-mono-latin-600-normal.woff2
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54180 [200]: GET /assets/fonts/bricolage-grotesque-latin-800-normal.woff2
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54182 [200]: GET /assets/fonts/ibm-plex-sans-latin-500-normal.woff2
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54172 Closing
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54180 Closing
+[Thu Nov 19 16:34:43 2026] 127.0.0.1:54182 Closing
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54186 Accepted
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54186 [302]: POST /admin/edit.php
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54186 Closing
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54198 Accepted
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54198 [200]: GET /admin/view.php?id=1
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54198 Closing
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54212 Accepted
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54212 [200]: GET /assets/css/app.css?v=96790041
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54212 Closing
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54222 Accepted
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54232 Accepted
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54222 [200]: GET /assets/img/logo-light.png?v=89bb2fe9
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54232 [200]: GET /assets/js/admin.js?v=96790041
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54222 Closing
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54232 Closing
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54240 Accepted
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54240 [200]: GET /assets/js/view.js?v=ca493adf
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54240 Closing
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54254 Accepted
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54256 Accepted
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54264 Accepted
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54280 Accepted
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54290 Accepted
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54306 Accepted
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54254 [200]: GET /assets/fonts/ibm-plex-sans-latin-600-normal.woff2
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54256 [200]: GET /assets/fonts/ibm-plex-sans-latin-700-normal.woff2
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54264 [200]: GET /assets/fonts/ibm-plex-sans-latin-500-normal.woff2
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54280 [200]: GET /assets/fonts/ibm-plex-mono-latin-600-normal.woff2
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54290 [200]: GET /assets/fonts/bricolage-grotesque-latin-800-normal.woff2
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54306 [200]: GET /assets/fonts/ibm-plex-sans-latin-400-normal.woff2
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54254 Closing
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54256 Closing
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54264 Closing
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54280 Closing
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54290 Closing
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54306 Closing
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54318 Accepted
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54318 Closing
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54330 Accepted
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54346 Accepted
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54356 Accepted
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54372 Accepted
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54378 Accepted
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54330 [200]: GET /assets/css/app.css?v=96790041
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54346 [200]: GET /assets/vendor/maplibre-gl.css?v=9f4201f7
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54356 [200]: GET /assets/css/client.css?v=19e3ec16
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54372 [200]: GET /assets/img/logo-light.png?v=89bb2fe9
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54378 [200]: GET /assets/img/mascotte.webp?v=473d0b93
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54330 Closing
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54346 Closing
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54356 Closing
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54372 Closing
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54378 Closing
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54388 Accepted
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54390 Accepted
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54388 [200]: GET /assets/vendor/maplibre-gl-csp.js?v=9f4201f7
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54388 Closing
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54394 Accepted
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54390 [200]: GET /assets/js/map.js?v=9d4dcb7e
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54390 Closing
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54394 [200]: GET /assets/js/client.js?v=19e3ec16
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54394 Closing
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54406 Accepted
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54406 [200]: GET /assets/fonts/ibm-plex-mono-latin-600-normal.woff2
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54412 Accepted
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54412 [200]: GET /assets/fonts/bricolage-grotesque-latin-700-normal.woff2
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54428 Accepted
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54406 Closing
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54412 Closing
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54434 Accepted
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54446 Accepted
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54434 [200]: GET /assets/fonts/ibm-plex-sans-latin-400-normal.woff2
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54446 [200]: GET /assets/fonts/ibm-plex-sans-latin-600-normal.woff2
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54428 [200]: GET /assets/fonts/ibm-plex-sans-latin-500-normal.woff2
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54434 Closing
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54446 Closing
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54428 Closing
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54450 Accepted
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54466 Accepted
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54450 [200]: GET /assets/fonts/ibm-plex-sans-latin-700-normal.woff2
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54466 [200]: GET /assets/fonts/bricolage-grotesque-latin-800-normal.woff2
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54450 Closing
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54466 Closing
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54476 Accepted
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54476 [200]: GET /assets/vendor/maplibre-gl-csp-worker.js?v=9f4201f7
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54476 Closing
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54486 Accepted
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54486 [200]: GET /assets/vendor/maplibre-gl-csp-worker.js?v=9f4201f7
+[Thu Nov 19 16:34:45 2026] 127.0.0.1:54486 Closing
+[Thu Nov 19 16:34:49 2026] 127.0.0.1:54490 Accepted
+[Thu Nov 19 16:34:49 2026] 127.0.0.1:54490 [200]: GET /admin/drive.php?id=1
+[Thu Nov 19 16:34:49 2026] 127.0.0.1:54490 Closing
+[Thu Nov 19 16:34:49 2026] 127.0.0.1:54500 Accepted
+[Thu Nov 19 16:34:49 2026] 127.0.0.1:54508 Accepted
+[Thu Nov 19 16:34:49 2026] 127.0.0.1:54516 Accepted
+[Thu Nov 19 16:34:49 2026] 127.0.0.1:54518 Accepted
+[Thu Nov 19 16:34:49 2026] 127.0.0.1:54526 Accepted
+[Thu Nov 19 16:34:49 2026] 127.0.0.1:54528 Accepted
+[Thu Nov 19 16:34:49 2026] 127.0.0.1:54500 [200]: GET /assets/css/app.css?v=96790041
+[Thu Nov 19 16:34:49 2026] 127.0.0.1:54500 Closing
+[Thu Nov 19 16:34:49 2026] 127.0.0.1:54508 [200]: GET /assets/vendor/maplibre-gl.css?v=9f4201f7
+[Thu Nov 19 16:34:49 2026] 127.0.0.1:54508 Closing
+[Thu Nov 19 16:34:49 2026] 127.0.0.1:54516 [200]: GET /assets/css/drive.css?v=51d6f3e5
+[Thu Nov 19 16:34:49 2026] 127.0.0.1:54516 Closing
+[Thu Nov 19 16:34:49 2026] 127.0.0.1:54518 [200]: GET /assets/vendor/maplibre-gl-csp.js?v=9f4201f7
+[Thu Nov 19 16:34:49 2026] 127.0.0.1:54518 Closing
+[Thu Nov 19 16:34:49 2026] 127.0.0.1:54532 Accepted
+[Thu Nov 19 16:34:49 2026] 127.0.0.1:54526 [200]: GET /assets/js/map.js?v=9d4dcb7e
+[Thu Nov 19 16:34:49 2026] 127.0.0.1:54528 [200]: GET /assets/js/drive.js?v=9d4dcb7e
+[Thu Nov 19 16:34:49 2026] 127.0.0.1:54532 [200]: GET /assets/js/admin.js?v=96790041
+[Thu Nov 19 16:34:49 2026] 127.0.0.1:54526 Closing
+[Thu Nov 19 16:34:49 2026] 127.0.0.1:54528 Closing
+[Thu Nov 19 16:34:49 2026] 127.0.0.1:54532 Closing
+[Thu Nov 19 16:34:50 2026] 127.0.0.1:54546 Accepted
+[Thu Nov 19 16:34:50 2026] 127.0.0.1:54552 Accepted
+[Thu Nov 19 16:34:50 2026] 127.0.0.1:54546 [200]: GET /assets/fonts/ibm-plex-sans-latin-400-normal.woff2
+[Thu Nov 19 16:34:50 2026] 127.0.0.1:54566 Accepted
+[Thu Nov 19 16:34:50 2026] 127.0.0.1:54552 [200]: GET /assets/fonts/bricolage-grotesque-latin-800-normal.woff2
+[Thu Nov 19 16:34:50 2026] 127.0.0.1:54572 Accepted
+[Thu Nov 19 16:34:50 2026] 127.0.0.1:54566 [200]: GET /assets/fonts/ibm-plex-mono-latin-600-normal.woff2
+[Thu Nov 19 16:34:50 2026] 127.0.0.1:54546 Closing
+[Thu Nov 19 16:34:50 2026] 127.0.0.1:54572 [200]: GET /assets/fonts/ibm-plex-sans-latin-600-normal.woff2
+[Thu Nov 19 16:34:50 2026] 127.0.0.1:54552 Closing
+[Thu Nov 19 16:34:50 2026] 127.0.0.1:54566 Closing
+[Thu Nov 19 16:34:50 2026] 127.0.0.1:54572 Closing
+[Thu Nov 19 16:34:50 2026] 127.0.0.1:54580 Accepted
+[Thu Nov 19 16:34:50 2026] 127.0.0.1:54580 [200]: GET /assets/vendor/maplibre-gl-csp-worker.js?v=9f4201f7
+[Thu Nov 19 16:34:50 2026] 127.0.0.1:54580 Closing
+[Thu Nov 19 16:34:50 2026] 127.0.0.1:54582 Accepted
+[Thu Nov 19 16:34:50 2026] 127.0.0.1:54582 [200]: GET /assets/vendor/maplibre-gl-csp-worker.js?v=9f4201f7
+[Thu Nov 19 16:34:50 2026] 127.0.0.1:54582 Closing
+[Thu Nov 19 16:34:54 2026] 127.0.0.1:41602 Accepted
+[Thu Nov 19 16:34:54 2026] 127.0.0.1:41602 [200]: POST /admin/action.php
+[Thu Nov 19 16:34:54 2026] 127.0.0.1:41602 Closing
+[Thu Nov 19 16:34:54 2026] 127.0.0.1:41606 Accepted
+[Thu Nov 19 16:34:54 2026] 127.0.0.1:41606 [200]: POST /api/track.php
+[Thu Nov 19 16:34:54 2026] 127.0.0.1:41606 Closing
+[Thu Nov 19 16:34:54 2026] 127.0.0.1:41608 Accepted
+[Thu Nov 19 16:34:54 2026] 127.0.0.1:41608 [200]: GET /assets/fonts/ibm-plex-sans-latin-700-normal.woff2
+[Thu Nov 19 16:34:54 2026] 127.0.0.1:41608 Closing
+[Thu Nov 19 16:34:59 2026] 127.0.0.1:41624 Accepted
+[Thu Nov 19 16:34:59 2026] 127.0.0.1:41624 [200]: POST /api/track.php
+[Thu Nov 19 16:34:59 2026] 127.0.0.1:41624 Closing
+[Thu Nov 19 16:35:02 2026] 127.0.0.1:45004 Accepted
+[Thu Nov 19 16:35:02 2026] 127.0.0.1:45004 [200]: POST /api/track.php
+[Thu Nov 19 16:35:02 2026] 127.0.0.1:45004 Closing
+[Thu Nov 19 16:35:05 2026] 127.0.0.1:45018 Accepted
+[Thu Nov 19 16:35:05 2026] 127.0.0.1:45018 [200]: POST /api/track.php
+[Thu Nov 19 16:35:05 2026] 127.0.0.1:45018 Closing
+[Thu Nov 19 16:35:08 2026] 127.0.0.1:45030 Accepted
+[Thu Nov 19 16:35:08 2026] 127.0.0.1:45030 [200]: POST /api/track.php
+[Thu Nov 19 16:35:08 2026] 127.0.0.1:45030 Closing
+[Thu Nov 19 16:35:11 2026] 127.0.0.1:45040 Accepted
+[Thu Nov 19 16:35:11 2026] 127.0.0.1:45040 [200]: POST /api/track.php
+[Thu Nov 19 16:35:11 2026] 127.0.0.1:45040 Closing
+[Thu Nov 19 16:35:14 2026] 127.0.0.1:55408 Accepted
+[Thu Nov 19 16:35:14 2026] 127.0.0.1:55408 [200]: POST /api/track.php
+[Thu Nov 19 16:35:14 2026] 127.0.0.1:55408 Closing
+[Thu Nov 19 16:35:15 2026] 127.0.0.1:55416 Accepted
+[Thu Nov 19 16:35:15 2026] 127.0.0.1:55416 [200]: GET /api/status.php?k=m5vE_xkY58iKL1EdwEdQBQ&v=-1
+[Thu Nov 19 16:35:15 2026] 127.0.0.1:55416 Closing
+[Thu Nov 19 16:35:17 2026] 127.0.0.1:55420 Accepted
+[Thu Nov 19 16:35:17 2026] 127.0.0.1:55420 [200]: POST /api/track.php
+[Thu Nov 19 16:35:17 2026] 127.0.0.1:55420 Closing
+[Thu Nov 19 16:35:19 2026] 127.0.0.1:55428 Accepted
+[Thu Nov 19 16:35:19 2026] 127.0.0.1:55428 [200]: GET /api/status.php?k=m5vE_xkY58iKL1EdwEdQBQ&v=2
+[Thu Nov 19 16:35:19 2026] 127.0.0.1:55428 Closing
+[Thu Nov 19 16:35:20 2026] 127.0.0.1:55436 Accepted
+[Thu Nov 19 16:35:20 2026] 127.0.0.1:55436 [200]: POST /api/track.php
+[Thu Nov 19 16:35:20 2026] 127.0.0.1:55436 Closing
+[Thu Nov 19 16:35:23 2026] 127.0.0.1:57186 Accepted
+[Thu Nov 19 16:35:23 2026] 127.0.0.1:57186 [200]: POST /api/track.php
+[Thu Nov 19 16:35:23 2026] 127.0.0.1:57186 Closing
+[Thu Nov 19 16:35:23 2026] 127.0.0.1:57200 Accepted
+[Thu Nov 19 16:35:23 2026] 127.0.0.1:57200 [200]: GET /api/status.php?k=m5vE_xkY58iKL1EdwEdQBQ&v=2
+[Thu Nov 19 16:35:23 2026] 127.0.0.1:57200 Closing
+[Thu Nov 19 16:35:26 2026] 127.0.0.1:57210 Accepted
+[Thu Nov 19 16:35:26 2026] 127.0.0.1:57210 [200]: POST /api/track.php
+[Thu Nov 19 16:35:26 2026] 127.0.0.1:57210 Closing
+[Thu Nov 19 16:35:27 2026] 127.0.0.1:57218 Accepted
+[Thu Nov 19 16:35:27 2026] 127.0.0.1:57218 [200]: GET /api/status.php?k=m5vE_xkY58iKL1EdwEdQBQ&v=2
+[Thu Nov 19 16:35:27 2026] 127.0.0.1:57218 Closing
+[Thu Nov 19 16:35:29 2026] 127.0.0.1:57224 Accepted
+[Thu Nov 19 16:35:29 2026] 127.0.0.1:57224 [200]: POST /api/track.php
+[Thu Nov 19 16:35:29 2026] 127.0.0.1:57224 Closing
+[Thu Nov 19 16:35:31 2026] 127.0.0.1:55212 Accepted
+[Thu Nov 19 16:35:31 2026] 127.0.0.1:55212 [200]: GET /api/status.php?k=m5vE_xkY58iKL1EdwEdQBQ&v=2
+[Thu Nov 19 16:35:31 2026] 127.0.0.1:55212 Closing
+[Thu Nov 19 16:35:32 2026] 127.0.0.1:55216 Accepted
+[Thu Nov 19 16:35:32 2026] 127.0.0.1:55216 [200]: POST /api/track.php
+[Thu Nov 19 16:35:32 2026] 127.0.0.1:55216 Closing
+[Thu Nov 19 16:35:35 2026] 127.0.0.1:55224 Accepted
+[Thu Nov 19 16:35:35 2026] 127.0.0.1:55224 [200]: POST /api/track.php
+[Thu Nov 19 16:35:35 2026] 127.0.0.1:55224 Closing
+[Thu Nov 19 16:35:35 2026] 127.0.0.1:55226 Accepted
+[Thu Nov 19 16:35:35 2026] 127.0.0.1:55226 [200]: GET /api/status.php?k=m5vE_xkY58iKL1EdwEdQBQ&v=3
+[Thu Nov 19 16:35:35 2026] 127.0.0.1:55226 Closing
+[Thu Nov 19 16:35:38 2026] 127.0.0.1:55240 Accepted
+[Thu Nov 19 16:35:38 2026] 127.0.0.1:55240 [200]: POST /api/track.php
+[Thu Nov 19 16:35:38 2026] 127.0.0.1:55240 Closing
+[Thu Nov 19 16:35:39 2026] 127.0.0.1:55248 Accepted
+[Thu Nov 19 16:35:39 2026] 127.0.0.1:55248 [200]: GET /api/status.php?k=m5vE_xkY58iKL1EdwEdQBQ&v=3
+[Thu Nov 19 16:35:39 2026] 127.0.0.1:55248 Closing
+[Thu Nov 19 16:35:43 2026] 127.0.0.1:46992 Accepted
+[Thu Nov 19 16:35:43 2026] 127.0.0.1:46992 [200]: GET /api/status.php?k=m5vE_xkY58iKL1EdwEdQBQ&v=3
+[Thu Nov 19 16:35:43 2026] 127.0.0.1:46992 Closing
+[Thu Nov 19 16:35:47 2026] 127.0.0.1:47000 Accepted
+[Thu Nov 19 16:35:47 2026] 127.0.0.1:47000 [200]: GET /api/status.php?k=m5vE_xkY58iKL1EdwEdQBQ&v=3
+[Thu Nov 19 16:35:47 2026] 127.0.0.1:47000 Closing
+[Thu Nov 19 16:35:51 2026] 127.0.0.1:51722 Accepted
+[Thu Nov 19 16:35:51 2026] 127.0.0.1:51722 [200]: GET /api/status.php?k=m5vE_xkY58iKL1EdwEdQBQ&v=3
+[Thu Nov 19 16:35:51 2026] 127.0.0.1:51722 Closing
+[Thu Nov 19 16:35:53 2026] 127.0.0.1:51724 Accepted
+[Thu Nov 19 16:35:53 2026] 127.0.0.1:51724 [200]: POST /api/track.php
+[Thu Nov 19 16:35:53 2026] 127.0.0.1:51724 Closing
+[Thu Nov 19 16:35:53 2026] 127.0.0.1:51736 Accepted
+[Thu Nov 19 16:35:53 2026] 127.0.0.1:51736 Closing
+[Thu Nov 19 16:35:53 2026] 127.0.0.1:51738 Accepted
+[Thu Nov 19 16:35:53 2026] 127.0.0.1:51746 Accepted
+[Thu Nov 19 16:35:53 2026] 127.0.0.1:51748 Accepted
+[Thu Nov 19 16:35:53 2026] 127.0.0.1:51750 Accepted
+[Thu Nov 19 16:35:53 2026] 127.0.0.1:51752 Accepted
+[Thu Nov 19 16:35:53 2026] 127.0.0.1:51766 Accepted
+[Thu Nov 19 16:35:53 2026] 127.0.0.1:51738 [200]: GET /assets/css/app.css?v=96790041
+[Thu Nov 19 16:35:53 2026] 127.0.0.1:51746 [200]: GET /assets/vendor/maplibre-gl.css?v=9f4201f7
+[Thu Nov 19 16:35:53 2026] 127.0.0.1:51748 [200]: GET /assets/css/client.css?v=19e3ec16
+[Thu Nov 19 16:35:53 2026] 127.0.0.1:51750 [200]: GET /assets/img/logo-light.png?v=89bb2fe9
+[Thu Nov 19 16:35:53 2026] 127.0.0.1:51752 [200]: GET /assets/img/mascotte.webp?v=473d0b93
+[Thu Nov 19 16:35:53 2026] 127.0.0.1:51766 [200]: GET /assets/vendor/maplibre-gl-csp.js?v=9f4201f7
+[Thu Nov 19 16:35:53 2026] 127.0.0.1:51738 Closing
+[Thu Nov 19 16:35:53 2026] 127.0.0.1:51746 Closing
+[Thu Nov 19 16:35:53 2026] 127.0.0.1:51748 Closing
+[Thu Nov 19 16:35:53 2026] 127.0.0.1:51750 Closing
+[Thu Nov 19 16:35:53 2026] 127.0.0.1:51752 Closing
+[Thu Nov 19 16:35:53 2026] 127.0.0.1:51766 Closing
+[Thu Nov 19 16:35:53 2026] 127.0.0.1:51778 Accepted
+[Thu Nov 19 16:35:53 2026] 127.0.0.1:51790 Accepted
+[Thu Nov 19 16:35:53 2026] 127.0.0.1:51778 [200]: GET /assets/js/map.js?v=9d4dcb7e
+[Thu Nov 19 16:35:53 2026] 127.0.0.1:51790 [200]: GET /assets/js/client.js?v=19e3ec16
+[Thu Nov 19 16:35:53 2026] 127.0.0.1:51778 Closing
+[Thu Nov 19 16:35:53 2026] 127.0.0.1:51790 Closing
+[Thu Nov 19 16:35:53 2026] 127.0.0.1:51792 Accepted
+[Thu Nov 19 16:35:53 2026] 127.0.0.1:51792 [200]: GET /assets/fonts/ibm-plex-mono-latin-600-normal.woff2
+[Thu Nov 19 16:35:53 2026] 127.0.0.1:51792 Closing
+[Thu Nov 19 16:35:53 2026] 127.0.0.1:51808 Accepted
+[Thu Nov 19 16:35:53 2026] 127.0.0.1:51824 Accepted
+[Thu Nov 19 16:35:53 2026] 127.0.0.1:51830 Accepted
+[Thu Nov 19 16:35:53 2026] 127.0.0.1:51844 Accepted
+[Thu Nov 19 16:35:53 2026] 127.0.0.1:51808 [200]: GET /assets/fonts/bricolage-grotesque-latin-700-normal.woff2
+[Thu Nov 19 16:35:53 2026] 127.0.0.1:51824 [200]: GET /assets/fonts/ibm-plex-sans-latin-500-normal.woff2
+[Thu Nov 19 16:35:53 2026] 127.0.0.1:51830 [200]: GET /assets/fonts/ibm-plex-sans-latin-400-normal.woff2
+[Thu Nov 19 16:35:53 2026] 127.0.0.1:51844 [200]: GET /assets/fonts/ibm-plex-sans-latin-600-normal.woff2
+[Thu Nov 19 16:35:53 2026] 127.0.0.1:51808 Closing
+[Thu Nov 19 16:35:53 2026] 127.0.0.1:51824 Closing
+[Thu Nov 19 16:35:53 2026] 127.0.0.1:51830 Closing
+[Thu Nov 19 16:35:53 2026] 127.0.0.1:51844 Closing
+[Thu Nov 19 16:35:54 2026] 127.0.0.1:51858 Accepted
+[Thu Nov 19 16:35:54 2026] 127.0.0.1:51860 Accepted
+[Thu Nov 19 16:35:54 2026] 127.0.0.1:51858 [200]: GET /assets/fonts/ibm-plex-sans-latin-700-normal.woff2
+[Thu Nov 19 16:35:54 2026] 127.0.0.1:51860 [200]: GET /assets/fonts/bricolage-grotesque-latin-800-normal.woff2
+[Thu Nov 19 16:35:54 2026] 127.0.0.1:51858 Closing
+[Thu Nov 19 16:35:54 2026] 127.0.0.1:51860 Closing
+[Thu Nov 19 16:35:54 2026] 127.0.0.1:51868 Accepted
+[Thu Nov 19 16:35:54 2026] 127.0.0.1:51868 [200]: GET /assets/vendor/maplibre-gl-csp-worker.js?v=9f4201f7
+[Thu Nov 19 16:35:54 2026] 127.0.0.1:51868 Closing
+[Thu Nov 19 16:35:55 2026] 127.0.0.1:51874 Accepted
+[Thu Nov 19 16:35:55 2026] 127.0.0.1:51874 [200]: GET /api/status.php?k=m5vE_xkY58iKL1EdwEdQBQ&v=3
+[Thu Nov 19 16:35:55 2026] 127.0.0.1:51874 Closing
+[Thu Nov 19 16:35:58 2026] 127.0.0.1:51890 Accepted
+[Thu Nov 19 16:35:58 2026] 127.0.0.1:51890 [200]: GET /api/status.php?k=m5vE_xkY58iKL1EdwEdQBQ&v=3
+[Thu Nov 19 16:35:58 2026] 127.0.0.1:51890 Closing
+[Thu Nov 19 16:35:58 2026] 127.0.0.1:51898 Accepted
+[Thu Nov 19 16:35:58 2026] 127.0.0.1:51898 [200]: GET /admin/view.php?id=1
+[Thu Nov 19 16:35:58 2026] 127.0.0.1:51898 Closing
+[Thu Nov 19 16:35:58 2026] 127.0.0.1:51908 Accepted
+[Thu Nov 19 16:35:58 2026] 127.0.0.1:51910 Accepted
+[Thu Nov 19 16:35:58 2026] 127.0.0.1:51912 Accepted
+[Thu Nov 19 16:35:58 2026] 127.0.0.1:51908 [200]: GET /assets/css/app.css?v=96790041
+[Thu Nov 19 16:35:58 2026] 127.0.0.1:51918 Accepted
+[Thu Nov 19 16:35:58 2026] 127.0.0.1:51910 [200]: GET /assets/img/logo-light.png?v=89bb2fe9
+[Thu Nov 19 16:35:58 2026] 127.0.0.1:51912 [200]: GET /assets/js/admin.js?v=96790041
+[Thu Nov 19 16:35:58 2026] 127.0.0.1:51908 Closing
+[Thu Nov 19 16:35:58 2026] 127.0.0.1:51910 Closing
+[Thu Nov 19 16:35:58 2026] 127.0.0.1:51912 Closing
+[Thu Nov 19 16:35:58 2026] 127.0.0.1:51918 [200]: GET /assets/js/view.js?v=ca493adf
+[Thu Nov 19 16:35:58 2026] 127.0.0.1:51918 Closing
+[Thu Nov 19 16:35:58 2026] 127.0.0.1:51934 Accepted
+[Thu Nov 19 16:35:58 2026] 127.0.0.1:51938 Accepted
+[Thu Nov 19 16:35:58 2026] 127.0.0.1:51946 Accepted
+[Thu Nov 19 16:35:58 2026] 127.0.0.1:51952 Accepted
+[Thu Nov 19 16:35:58 2026] 127.0.0.1:51960 Accepted
+[Thu Nov 19 16:35:58 2026] 127.0.0.1:51964 Accepted
+[Thu Nov 19 16:35:58 2026] 127.0.0.1:51934 [200]: GET /assets/fonts/ibm-plex-sans-latin-600-normal.woff2
+[Thu Nov 19 16:35:58 2026] 127.0.0.1:51934 Closing
+[Thu Nov 19 16:35:58 2026] 127.0.0.1:51938 [200]: GET /assets/fonts/ibm-plex-mono-latin-600-normal.woff2
+[Thu Nov 19 16:35:58 2026] 127.0.0.1:51946 [200]: GET /api/status.php?k=m5vE_xkY58iKL1EdwEdQBQ&v=999999
+[Thu Nov 19 16:35:58 2026] 127.0.0.1:51946 Closing
+[Thu Nov 19 16:35:58 2026] 127.0.0.1:51952 [200]: GET /assets/fonts/bricolage-grotesque-latin-800-normal.woff2
+[Thu Nov 19 16:35:58 2026] 127.0.0.1:51960 [200]: GET /assets/fonts/ibm-plex-sans-latin-400-normal.woff2
+[Thu Nov 19 16:35:58 2026] 127.0.0.1:51964 [200]: GET /assets/fonts/ibm-plex-sans-latin-500-normal.woff2
+[Thu Nov 19 16:35:58 2026] 127.0.0.1:51938 Closing
+[Thu Nov 19 16:35:58 2026] 127.0.0.1:51952 Closing
+[Thu Nov 19 16:35:58 2026] 127.0.0.1:51960 Closing
+[Thu Nov 19 16:35:58 2026] 127.0.0.1:51964 Closing
+[Thu Nov 19 16:35:58 2026] 127.0.0.1:51974 Accepted
+[Thu Nov 19 16:35:58 2026] 127.0.0.1:51974 [200]: GET /assets/fonts/ibm-plex-sans-latin-700-normal.woff2
+[Thu Nov 19 16:35:58 2026] 127.0.0.1:51974 Closing
+[Thu Nov 19 16:35:59 2026] 127.0.0.1:51976 Accepted
+[Thu Nov 19 16:35:59 2026] 127.0.0.1:51976 [200]: GET /api/status.php?k=m5vE_xkY58iKL1EdwEdQBQ&v=3
+[Thu Nov 19 16:35:59 2026] 127.0.0.1:51976 Closing
+[Thu Nov 19 16:36:02 2026] 127.0.0.1:47162 Accepted
+[Thu Nov 19 16:36:02 2026] 127.0.0.1:47162 [200]: GET /api/status.php?k=m5vE_xkY58iKL1EdwEdQBQ&v=3
+[Thu Nov 19 16:36:02 2026] 127.0.0.1:47162 Closing
+[Thu Nov 19 16:36:02 2026] 127.0.0.1:47168 Accepted
+[Thu Nov 19 16:36:02 2026] 127.0.0.1:47168 [200]: GET /admin/settings.php
+[Thu Nov 19 16:36:02 2026] 127.0.0.1:47168 Closing
+[Thu Nov 19 16:36:02 2026] 127.0.0.1:47170 Accepted
+[Thu Nov 19 16:36:02 2026] 127.0.0.1:47170 [200]: GET /assets/css/app.css?v=96790041
+[Thu Nov 19 16:36:02 2026] 127.0.0.1:47174 Accepted
+[Thu Nov 19 16:36:02 2026] 127.0.0.1:47174 [200]: GET /assets/img/logo-light.png?v=89bb2fe9
+[Thu Nov 19 16:36:02 2026] 127.0.0.1:47170 Closing
+[Thu Nov 19 16:36:02 2026] 127.0.0.1:47174 Closing
+[Thu Nov 19 16:36:02 2026] 127.0.0.1:47188 Accepted
+[Thu Nov 19 16:36:02 2026] 127.0.0.1:47188 [200]: GET /assets/js/admin.js?v=96790041
+[Thu Nov 19 16:36:02 2026] 127.0.0.1:47188 Closing
+[Thu Nov 19 16:36:02 2026] 127.0.0.1:47204 Accepted
+[Thu Nov 19 16:36:02 2026] 127.0.0.1:47216 Accepted
+[Thu Nov 19 16:36:02 2026] 127.0.0.1:47222 Accepted
+[Thu Nov 19 16:36:02 2026] 127.0.0.1:47204 [200]: GET /assets/fonts/ibm-plex-sans-latin-400-normal.woff2
+[Thu Nov 19 16:36:02 2026] 127.0.0.1:47216 [200]: GET /assets/fonts/ibm-plex-sans-latin-600-normal.woff2
+[Thu Nov 19 16:36:02 2026] 127.0.0.1:47238 Accepted
+[Thu Nov 19 16:36:02 2026] 127.0.0.1:47222 [200]: GET /assets/fonts/ibm-plex-mono-latin-600-normal.woff2
+[Thu Nov 19 16:36:02 2026] 127.0.0.1:47240 Accepted
+[Thu Nov 19 16:36:02 2026] 127.0.0.1:47238 [200]: GET /assets/fonts/bricolage-grotesque-latin-800-normal.woff2
+[Thu Nov 19 16:36:02 2026] 127.0.0.1:47248 Accepted
+[Thu Nov 19 16:36:02 2026] 127.0.0.1:47204 Closing
+[Thu Nov 19 16:36:02 2026] 127.0.0.1:47216 Closing
+[Thu Nov 19 16:36:02 2026] 127.0.0.1:47240 [200]: GET /assets/fonts/ibm-plex-sans-latin-700-normal.woff2
+[Thu Nov 19 16:36:02 2026] 127.0.0.1:47222 Closing
+[Thu Nov 19 16:36:02 2026] 127.0.0.1:47248 [200]: GET /assets/fonts/ibm-plex-sans-latin-500-normal.woff2
+[Thu Nov 19 16:36:02 2026] 127.0.0.1:47238 Closing
+[Thu Nov 19 16:36:02 2026] 127.0.0.1:47240 Closing
+[Thu Nov 19 16:36:02 2026] 127.0.0.1:47248 Closing
+[Thu Nov 19 16:36:02 2026] 127.0.0.1:47254 Accepted
+[Thu Nov 19 16:36:03 2026] 127.0.0.1:47254 [200]: POST /admin/settings.php
+[Thu Nov 19 16:36:03 2026] 127.0.0.1:47254 Closing
+[Thu Nov 19 16:36:03 2026] 127.0.0.1:47266 Accepted
+[Thu Nov 19 16:36:03 2026] 127.0.0.1:47266 [200]: GET /api/status.php?k=m5vE_xkY58iKL1EdwEdQBQ&v=3
+[Thu Nov 19 16:36:03 2026] 127.0.0.1:47266 Closing
+[Thu Nov 19 16:36:03 2026] 127.0.0.1:47274 Accepted
+[Thu Nov 19 16:36:03 2026] 127.0.0.1:47280 Accepted
+[Thu Nov 19 16:36:03 2026] 127.0.0.1:47282 Accepted
+[Thu Nov 19 16:36:03 2026] 127.0.0.1:47274 [200]: GET /assets/css/app.css?v=96790041
+[Thu Nov 19 16:36:03 2026] 127.0.0.1:47280 [200]: GET /assets/img/logo-light.png?v=89bb2fe9
+[Thu Nov 19 16:36:03 2026] 127.0.0.1:47282 [200]: GET /assets/js/admin.js?v=96790041
+[Thu Nov 19 16:36:03 2026] 127.0.0.1:47274 Closing
+[Thu Nov 19 16:36:03 2026] 127.0.0.1:47280 Closing
+[Thu Nov 19 16:36:03 2026] 127.0.0.1:47282 Closing
+[Thu Nov 19 16:36:04 2026] 127.0.0.1:47294 Accepted
+[Thu Nov 19 16:36:04 2026] 127.0.0.1:47302 Accepted
+[Thu Nov 19 16:36:04 2026] 127.0.0.1:47304 Accepted
+[Thu Nov 19 16:36:04 2026] 127.0.0.1:47320 Accepted
+[Thu Nov 19 16:36:04 2026] 127.0.0.1:47334 Accepted
+[Thu Nov 19 16:36:04 2026] 127.0.0.1:47346 Accepted
+[Thu Nov 19 16:36:04 2026] 127.0.0.1:47294 [200]: GET /assets/fonts/ibm-plex-sans-latin-400-normal.woff2
+[Thu Nov 19 16:36:04 2026] 127.0.0.1:47302 [200]: GET /assets/fonts/ibm-plex-sans-latin-600-normal.woff2
+[Thu Nov 19 16:36:04 2026] 127.0.0.1:47304 [200]: GET /assets/fonts/ibm-plex-mono-latin-600-normal.woff2
+[Thu Nov 19 16:36:04 2026] 127.0.0.1:47320 [200]: GET /assets/fonts/bricolage-grotesque-latin-800-normal.woff2
+[Thu Nov 19 16:36:04 2026] 127.0.0.1:47334 [200]: GET /assets/fonts/ibm-plex-sans-latin-700-normal.woff2
+[Thu Nov 19 16:36:04 2026] 127.0.0.1:47346 [200]: GET /assets/fonts/ibm-plex-sans-latin-500-normal.woff2
+[Thu Nov 19 16:36:04 2026] 127.0.0.1:47294 Closing
+[Thu Nov 19 16:36:04 2026] 127.0.0.1:47302 Closing
+[Thu Nov 19 16:36:04 2026] 127.0.0.1:47304 Closing
+[Thu Nov 19 16:36:04 2026] 127.0.0.1:47320 Closing
+[Thu Nov 19 16:36:04 2026] 127.0.0.1:47334 Closing
+[Thu Nov 19 16:36:04 2026] 127.0.0.1:47346 Closing
+[Thu Nov 19 16:36:05 2026] 127.0.0.1:47356 Accepted
+[Thu Nov 19 16:36:05 2026] 127.0.0.1:47356 [200]: POST /api/track.php
+[Thu Nov 19 16:36:05 2026] 127.0.0.1:47356 Closing
+[Thu Nov 19 16:36:06 2026] 127.0.0.1:47362 Accepted
+[Thu Nov 19 16:36:06 2026] 127.0.0.1:47362 [200]: GET /api/status.php?k=m5vE_xkY58iKL1EdwEdQBQ&v=3
+[Thu Nov 19 16:36:06 2026] 127.0.0.1:47362 Closing
+[Thu Nov 19 16:36:07 2026] 127.0.0.1:47366 Accepted
+[Thu Nov 19 16:36:07 2026] 127.0.0.1:47366 [200]: GET /api/status.php?k=m5vE_xkY58iKL1EdwEdQBQ&v=3
+[Thu Nov 19 16:36:07 2026] 127.0.0.1:47366 Closing
+[Thu Nov 19 16:36:10 2026] 127.0.0.1:47370 Accepted
+[Thu Nov 19 16:36:10 2026] 127.0.0.1:47370 [200]: GET /api/status.php?k=m5vE_xkY58iKL1EdwEdQBQ&v=4
+[Thu Nov 19 16:36:10 2026] 127.0.0.1:47370 Closing
+[Thu Nov 19 16:36:10 2026] 127.0.0.1:47376 Accepted
+[Thu Nov 19 16:36:10 2026] 127.0.0.1:47376 [200]: POST /api/track.php
+[Thu Nov 19 16:36:10 2026] 127.0.0.1:47376 Closing
+[Thu Nov 19 16:36:11 2026] 127.0.0.1:40176 Accepted
+[Thu Nov 19 16:36:11 2026] 127.0.0.1:40176 [200]: GET /api/status.php?k=m5vE_xkY58iKL1EdwEdQBQ&v=4
+[Thu Nov 19 16:36:11 2026] 127.0.0.1:40176 Closing
+[Thu Nov 19 16:36:14 2026] 127.0.0.1:40180 Accepted
+[Thu Nov 19 16:36:14 2026] 127.0.0.1:40180 [200]: GET /api/status.php?k=m5vE_xkY58iKL1EdwEdQBQ&v=4
+[Thu Nov 19 16:36:14 2026] 127.0.0.1:40180 Closing
+[Thu Nov 19 16:36:16 2026] 127.0.0.1:40184 Accepted
+[Thu Nov 19 16:36:16 2026] 127.0.0.1:40184 Closing
+[Thu Nov 19 16:36:16 2026] 127.0.0.1:40186 Accepted
+[Thu Nov 19 16:36:16 2026] 127.0.0.1:40192 Accepted
+[Thu Nov 19 16:36:16 2026] 127.0.0.1:40194 Accepted
+[Thu Nov 19 16:36:16 2026] 127.0.0.1:40186 [200]: GET /assets/css/app.css?v=96790041
+[Thu Nov 19 16:36:16 2026] 127.0.0.1:40192 [200]: GET /assets/vendor/maplibre-gl.css?v=9f4201f7
+[Thu Nov 19 16:36:16 2026] 127.0.0.1:40204 Accepted
+[Thu Nov 19 16:36:16 2026] 127.0.0.1:40194 [200]: GET /assets/css/client.css?v=19e3ec16
+[Thu Nov 19 16:36:16 2026] 127.0.0.1:40206 Accepted
+[Thu Nov 19 16:36:16 2026] 127.0.0.1:40204 [200]: GET /assets/img/logo-light.png?v=89bb2fe9
+[Thu Nov 19 16:36:16 2026] 127.0.0.1:40208 Accepted
+[Thu Nov 19 16:36:16 2026] 127.0.0.1:40186 Closing
+[Thu Nov 19 16:36:16 2026] 127.0.0.1:40192 Closing
+[Thu Nov 19 16:36:16 2026] 127.0.0.1:40206 [200]: GET /assets/img/mascotte.webp?v=473d0b93
+[Thu Nov 19 16:36:16 2026] 127.0.0.1:40194 Closing
+[Thu Nov 19 16:36:16 2026] 127.0.0.1:40208 [200]: GET /assets/vendor/maplibre-gl-csp.js?v=9f4201f7
+[Thu Nov 19 16:36:16 2026] 127.0.0.1:40204 Closing
+[Thu Nov 19 16:36:16 2026] 127.0.0.1:40206 Closing
+[Thu Nov 19 16:36:16 2026] 127.0.0.1:40208 Closing
+[Thu Nov 19 16:36:16 2026] 127.0.0.1:40210 Accepted
+[Thu Nov 19 16:36:16 2026] 127.0.0.1:40226 Accepted
+[Thu Nov 19 16:36:16 2026] 127.0.0.1:40210 [200]: GET /assets/js/map.js?v=9d4dcb7e
+[Thu Nov 19 16:36:16 2026] 127.0.0.1:40226 [200]: GET /assets/js/client.js?v=19e3ec16
+[Thu Nov 19 16:36:16 2026] 127.0.0.1:40210 Closing
+[Thu Nov 19 16:36:16 2026] 127.0.0.1:40226 Closing
+[Thu Nov 19 16:36:16 2026] 127.0.0.1:40238 Accepted
+[Thu Nov 19 16:36:16 2026] 127.0.0.1:40242 Accepted
+[Thu Nov 19 16:36:16 2026] 127.0.0.1:40238 [200]: GET /assets/fonts/ibm-plex-mono-latin-600-normal.woff2
+[Thu Nov 19 16:36:16 2026] 127.0.0.1:40242 [200]: GET /assets/fonts/bricolage-grotesque-latin-700-normal.woff2
+[Thu Nov 19 16:36:16 2026] 127.0.0.1:40238 Closing
+[Thu Nov 19 16:36:16 2026] 127.0.0.1:40242 Closing
+[Thu Nov 19 16:36:16 2026] 127.0.0.1:40244 Accepted
+[Thu Nov 19 16:36:16 2026] 127.0.0.1:40248 Accepted
+[Thu Nov 19 16:36:16 2026] 127.0.0.1:40244 [200]: GET /assets/fonts/ibm-plex-sans-latin-500-normal.woff2
+[Thu Nov 19 16:36:16 2026] 127.0.0.1:40250 Accepted
+[Thu Nov 19 16:36:16 2026] 127.0.0.1:40248 [200]: GET /assets/fonts/ibm-plex-sans-latin-400-normal.woff2
+[Thu Nov 19 16:36:16 2026] 127.0.0.1:40250 [200]: GET /assets/fonts/ibm-plex-sans-latin-600-normal.woff2
+[Thu Nov 19 16:36:16 2026] 127.0.0.1:40244 Closing
+[Thu Nov 19 16:36:16 2026] 127.0.0.1:40248 Closing
+[Thu Nov 19 16:36:16 2026] 127.0.0.1:40250 Closing
+[Thu Nov 19 16:36:16 2026] 127.0.0.1:40256 Accepted
+[Thu Nov 19 16:36:16 2026] 127.0.0.1:40256 [200]: GET /assets/fonts/ibm-plex-sans-latin-700-normal.woff2
+[Thu Nov 19 16:36:16 2026] 127.0.0.1:40256 Closing

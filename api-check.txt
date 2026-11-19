@@ -1,0 +1,12 @@
+❌ Géocodage IGN (La Grande-Paroisse)        échec
+✅ Géocodage IGN (Melun)                     2 Avenue Thiers 77000 Melun (48.5326, 2.6560) 0.89s
+❌ Saisie floue « mairie la grande paroisse » Mairie Salle Paroissiale 45270 Beauchamps-sur-Huillard (47.9369, 2.4528) 1.60s
+✅ Itinéraire OSRM principal                 38.5 km, 35 min sans trafic, 500 points, 1.05s
+✅ Itinéraire OSRM FOSSGIS (secours)         38.5 km, 35 min sans trafic, 500 points, 0.38s
+   → Heure annoncée un jeudi 8h00 (pointe) : 54 min · un dimanche 15h : 43 min
+✅ Style de carte OpenFreeMap (positron)      55 calques, 0.12s
+✅ Ressources de carte autorisées par la CSP tiles.openfreemap.org
+✅ Tuiles vectorielles (TileJSON)             https://tiles.openfreemap.org/planet/20261115_080022_pt/{z}/{x}/{y}.pbf
+✅ CORS IGN (appel direct navigateur)         *
+
+RÉSULTAT : au moins un service a échoué.
