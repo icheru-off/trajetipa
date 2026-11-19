@@ -1,0 +1,235 @@
+Command line invocation:
+    /Applications/Xcode_16.4.app/Contents/Developer/usr/bin/xcodebuild -project FixitTrajet.xcodeproj -target FixitTrajet -configuration Release -sdk iphoneos SYMROOT=/Users/runner/work/trajetipa/trajetipa/ios/build CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY= build
+
+Build settings from command line:
+    CODE_SIGN_IDENTITY = 
+    CODE_SIGNING_ALLOWED = NO
+    CODE_SIGNING_REQUIRED = NO
+    SDKROOT = iphoneos18.5
+    SYMROOT = /Users/runner/work/trajetipa/trajetipa/ios/build
+
+note: Using codesigning identity override: 
+ComputePackagePrebuildTargetDependencyGraph
+
+Prepare packages
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (1 target)
+    Target 'FixitTrajet' in project 'FixitTrajet' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+ExecuteExternalTool /Applications/Xcode_16.4.app/Contents/Developer/usr/bin/actool --print-asset-tag-combinations --output-format xml1 /Users/runner/work/trajetipa/trajetipa/ios/FixitTrajet/Assets.xcassets
+
+ExecuteExternalTool /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode_16.4.app/Contents/Developer/usr/bin/actool --version --output-format xml1
+
+ExecuteExternalTool /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc --version
+
+ExecuteExternalTool /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+
+Build description signature: e2a842185f9b1314ca74802331638fba
+Build description path: /Users/runner/work/trajetipa/trajetipa/ios/build/XCBuildData/e2a842185f9b1314ca74802331638fba.xcbuilddata
+ClangStatCache /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk /var/folders/2s/vty41l455yv698g4xkgfv7z00000gn/C/com.apple.DeveloperTools/16.4-16F6/Xcode/SDKStatCaches.noindex/iphoneos18.5-22F76-a529daf784b3616c7c04a36aeb7f5c05.sdkstatcache
+    cd /Users/runner/work/trajetipa/trajetipa/ios/FixitTrajet.xcodeproj
+    /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk -o /var/folders/2s/vty41l455yv698g4xkgfv7z00000gn/C/com.apple.DeveloperTools/16.4-16F6/Xcode/SDKStatCaches.noindex/iphoneos18.5-22F76-a529daf784b3616c7c04a36aeb7f5c05.sdkstatcache
+
+CreateBuildDirectory /Users/runner/work/trajetipa/trajetipa/ios/build
+    cd /Users/runner/work/trajetipa/trajetipa/ios/FixitTrajet.xcodeproj
+    builtin-create-build-directory /Users/runner/work/trajetipa/trajetipa/ios/build
+
+WriteAuxiliaryFile /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet-6c338630f4bae990d85725148d54a27c-VFS-iphoneos/all-product-headers.yaml
+    cd /Users/runner/work/trajetipa/trajetipa/ios/FixitTrajet.xcodeproj
+    write-file /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet-6c338630f4bae990d85725148d54a27c-VFS-iphoneos/all-product-headers.yaml
+
+CreateBuildDirectory /Users/runner/work/trajetipa/trajetipa/ios/build/Release-iphoneos
+    cd /Users/runner/work/trajetipa/trajetipa/ios/FixitTrajet.xcodeproj
+    builtin-create-build-directory /Users/runner/work/trajetipa/trajetipa/ios/build/Release-iphoneos
+
+CreateBuildDirectory /Users/runner/work/trajetipa/trajetipa/ios/build/EagerLinkingTBDs/Release-iphoneos
+    cd /Users/runner/work/trajetipa/trajetipa/ios/FixitTrajet.xcodeproj
+    builtin-create-build-directory /Users/runner/work/trajetipa/trajetipa/ios/build/EagerLinkingTBDs/Release-iphoneos
+
+WriteAuxiliaryFile /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/Objects-normal/arm64/FixitTrajet_const_extract_protocols.json (in target 'FixitTrajet' from project 'FixitTrajet')
+    cd /Users/runner/work/trajetipa/trajetipa/ios
+    write-file /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/Objects-normal/arm64/FixitTrajet_const_extract_protocols.json
+
+WriteAuxiliaryFile /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/Objects-normal/arm64/FixitTrajet.SwiftFileList (in target 'FixitTrajet' from project 'FixitTrajet')
+    cd /Users/runner/work/trajetipa/trajetipa/ios
+    write-file /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/Objects-normal/arm64/FixitTrajet.SwiftFileList
+
+WriteAuxiliaryFile /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/Objects-normal/arm64/FixitTrajet.SwiftConstValuesFileList (in target 'FixitTrajet' from project 'FixitTrajet')
+    cd /Users/runner/work/trajetipa/trajetipa/ios
+    write-file /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/Objects-normal/arm64/FixitTrajet.SwiftConstValuesFileList
+
+WriteAuxiliaryFile /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/Objects-normal/arm64/FixitTrajet.LinkFileList (in target 'FixitTrajet' from project 'FixitTrajet')
+    cd /Users/runner/work/trajetipa/trajetipa/ios
+    write-file /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/Objects-normal/arm64/FixitTrajet.LinkFileList
+
+WriteAuxiliaryFile /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/Objects-normal/arm64/FixitTrajet-OutputFileMap.json (in target 'FixitTrajet' from project 'FixitTrajet')
+    cd /Users/runner/work/trajetipa/trajetipa/ios
+    write-file /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/Objects-normal/arm64/FixitTrajet-OutputFileMap.json
+
+WriteAuxiliaryFile /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/FixitTrajet.hmap (in target 'FixitTrajet' from project 'FixitTrajet')
+    cd /Users/runner/work/trajetipa/trajetipa/ios
+    write-file /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/FixitTrajet.hmap
+
+WriteAuxiliaryFile /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/FixitTrajet.DependencyStaticMetadataFileList (in target 'FixitTrajet' from project 'FixitTrajet')
+    cd /Users/runner/work/trajetipa/trajetipa/ios
+    write-file /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/FixitTrajet.DependencyStaticMetadataFileList
+
+WriteAuxiliaryFile /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/FixitTrajet.DependencyMetadataFileList (in target 'FixitTrajet' from project 'FixitTrajet')
+    cd /Users/runner/work/trajetipa/trajetipa/ios
+    write-file /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/FixitTrajet.DependencyMetadataFileList
+
+WriteAuxiliaryFile /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/FixitTrajet-project-headers.hmap (in target 'FixitTrajet' from project 'FixitTrajet')
+    cd /Users/runner/work/trajetipa/trajetipa/ios
+    write-file /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/FixitTrajet-project-headers.hmap
+
+WriteAuxiliaryFile /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/FixitTrajet-own-target-headers.hmap (in target 'FixitTrajet' from project 'FixitTrajet')
+    cd /Users/runner/work/trajetipa/trajetipa/ios
+    write-file /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/FixitTrajet-own-target-headers.hmap
+
+WriteAuxiliaryFile /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/FixitTrajet-generated-files.hmap (in target 'FixitTrajet' from project 'FixitTrajet')
+    cd /Users/runner/work/trajetipa/trajetipa/ios
+    write-file /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/FixitTrajet-generated-files.hmap
+
+WriteAuxiliaryFile /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/FixitTrajet-all-target-headers.hmap (in target 'FixitTrajet' from project 'FixitTrajet')
+    cd /Users/runner/work/trajetipa/trajetipa/ios
+    write-file /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/FixitTrajet-all-target-headers.hmap
+
+WriteAuxiliaryFile /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/FixitTrajet-all-non-framework-target-headers.hmap (in target 'FixitTrajet' from project 'FixitTrajet')
+    cd /Users/runner/work/trajetipa/trajetipa/ios
+    write-file /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/FixitTrajet-all-non-framework-target-headers.hmap
+
+MkDir /Users/runner/work/trajetipa/trajetipa/ios/build/Release-iphoneos/FixitTrajet.app (in target 'FixitTrajet' from project 'FixitTrajet')
+    cd /Users/runner/work/trajetipa/trajetipa/ios
+    /bin/mkdir -p /Users/runner/work/trajetipa/trajetipa/ios/build/Release-iphoneos/FixitTrajet.app
+
+MkDir /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/assetcatalog_output/unthinned (in target 'FixitTrajet' from project 'FixitTrajet')
+    cd /Users/runner/work/trajetipa/trajetipa/ios
+    /bin/mkdir -p /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/assetcatalog_output/unthinned
+
+MkDir /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/assetcatalog_output/thinned (in target 'FixitTrajet' from project 'FixitTrajet')
+    cd /Users/runner/work/trajetipa/trajetipa/ios
+    /bin/mkdir -p /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/assetcatalog_output/thinned
+
+GenerateAssetSymbols /Users/runner/work/trajetipa/trajetipa/ios/FixitTrajet/Assets.xcassets (in target 'FixitTrajet' from project 'FixitTrajet')
+    cd /Users/runner/work/trajetipa/trajetipa/ios
+    /Applications/Xcode_16.4.app/Contents/Developer/usr/bin/actool /Users/runner/work/trajetipa/trajetipa/ios/FixitTrajet/Assets.xcassets --compile /Users/runner/work/trajetipa/trajetipa/ios/build/Release-iphoneos/FixitTrajet.app --output-format human-readable-text --notices --warnings --export-dependency-info /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/assetcatalog_dependencies --output-partial-info-plist /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/assetcatalog_generated_info.plist --app-icon AppIcon --accent-color AccentColor --compress-pngs --enable-on-demand-resources YES --development-region en --target-device iphone --minimum-deployment-target 16.0 --platform iphoneos --bundle-identifier fr.fixit-service.trajet --generate-swift-asset-symbol-extensions NO --generate-swift-asset-symbols /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/DerivedSources/GeneratedAssetSymbols.swift --generate-objc-asset-symbols /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/DerivedSources/GeneratedAssetSymbols.h --generate-asset-symbol-index /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/DerivedSources/GeneratedAssetSymbols-Index.plist
+/* com.apple.actool.compilation-results */
+/Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/DerivedSources/GeneratedAssetSymbols-Index.plist
+/Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/DerivedSources/GeneratedAssetSymbols.h
+/Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/DerivedSources/GeneratedAssetSymbols.swift
+
+
+CompileAssetCatalogVariant thinned /Users/runner/work/trajetipa/trajetipa/ios/build/Release-iphoneos/FixitTrajet.app /Users/runner/work/trajetipa/trajetipa/ios/FixitTrajet/Assets.xcassets (in target 'FixitTrajet' from project 'FixitTrajet')
+    cd /Users/runner/work/trajetipa/trajetipa/ios
+    /Applications/Xcode_16.4.app/Contents/Developer/usr/bin/actool /Users/runner/work/trajetipa/trajetipa/ios/FixitTrajet/Assets.xcassets --compile /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/assetcatalog_output/thinned --output-format human-readable-text --notices --warnings --export-dependency-info /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/assetcatalog_dependencies_thinned --output-partial-info-plist /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/assetcatalog_generated_info.plist_thinned --app-icon AppIcon --accent-color AccentColor --compress-pngs --enable-on-demand-resources YES --development-region en --target-device iphone --minimum-deployment-target 16.0 --platform iphoneos
+/* com.apple.actool.compilation-results */
+/Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/assetcatalog_generated_info.plist_thinned
+/Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/assetcatalog_output/thinned/AppIcon60x60@2x.png
+/Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/assetcatalog_output/thinned/AppIcon76x76@2x~ipad.png
+/Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/assetcatalog_output/thinned/Assets.car
+
+
+SwiftDriver FixitTrajet normal arm64 com.apple.xcode.tools.swift.compiler (in target 'FixitTrajet' from project 'FixitTrajet')
+    cd /Users/runner/work/trajetipa/trajetipa/ios
+    builtin-SwiftDriver -- /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name FixitTrajet -O -whole-module-optimization -enforce-exclusivity\=checked @/Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/Objects-normal/arm64/FixitTrajet.SwiftFileList -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk -target arm64-apple-ios16.0 -g -Xfrontend -serialize-debugging-options -swift-version 5 -I /Users/runner/work/trajetipa/trajetipa/ios/build/Release-iphoneos -F /Users/runner/work/trajetipa/trajetipa/ios/build/Release-iphoneos -c -num-threads 3 -Xcc -ivfsstatcache -Xcc /var/folders/2s/vty41l455yv698g4xkgfv7z00000gn/C/com.apple.DeveloperTools/16.4-16F6/Xcode/SDKStatCaches.noindex/iphoneos18.5-22F76-a529daf784b3616c7c04a36aeb7f5c05.sdkstatcache -output-file-map /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/Objects-normal/arm64/FixitTrajet-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/Objects-normal/arm64/FixitTrajet.swiftmodule -validate-clang-modules-once -clang-build-session-file /var/folders/2s/vty41l455yv698g4xkgfv7z00000gn/C/org.llvm.clang/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/Objects-normal/arm64/FixitTrajet_const_extract_protocols.json -Xcc -iquote -Xcc /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/FixitTrajet-generated-files.hmap -Xcc -I/Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/FixitTrajet-own-target-headers.hmap -Xcc -I/Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/FixitTrajet-all-target-headers.hmap -Xcc -iquote -Xcc /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/FixitTrajet-project-headers.hmap -Xcc -I/Users/runner/work/trajetipa/trajetipa/ios/build/Release-iphoneos/include -Xcc -I/Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/DerivedSources-normal/arm64 -Xcc -I/Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/DerivedSources/arm64 -Xcc -I/Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/DerivedSources -emit-objc-header -emit-objc-header-path /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/Objects-normal/arm64/FixitTrajet-Swift.h -working-directory /Users/runner/work/trajetipa/trajetipa/ios -no-emit-module-separately-wmo
+
+SwiftDriver\ Compilation FixitTrajet normal arm64 com.apple.xcode.tools.swift.compiler (in target 'FixitTrajet' from project 'FixitTrajet')
+    cd /Users/runner/work/trajetipa/trajetipa/ios
+    builtin-Swift-Compilation -- /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name FixitTrajet -O -whole-module-optimization -enforce-exclusivity\=checked @/Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/Objects-normal/arm64/FixitTrajet.SwiftFileList -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk -target arm64-apple-ios16.0 -g -Xfrontend -serialize-debugging-options -swift-version 5 -I /Users/runner/work/trajetipa/trajetipa/ios/build/Release-iphoneos -F /Users/runner/work/trajetipa/trajetipa/ios/build/Release-iphoneos -c -num-threads 3 -Xcc -ivfsstatcache -Xcc /var/folders/2s/vty41l455yv698g4xkgfv7z00000gn/C/com.apple.DeveloperTools/16.4-16F6/Xcode/SDKStatCaches.noindex/iphoneos18.5-22F76-a529daf784b3616c7c04a36aeb7f5c05.sdkstatcache -output-file-map /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/Objects-normal/arm64/FixitTrajet-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/Objects-normal/arm64/FixitTrajet.swiftmodule -validate-clang-modules-once -clang-build-session-file /var/folders/2s/vty41l455yv698g4xkgfv7z00000gn/C/org.llvm.clang/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/Objects-normal/arm64/FixitTrajet_const_extract_protocols.json -Xcc -iquote -Xcc /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/FixitTrajet-generated-files.hmap -Xcc -I/Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/FixitTrajet-own-target-headers.hmap -Xcc -I/Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/FixitTrajet-all-target-headers.hmap -Xcc -iquote -Xcc /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/FixitTrajet-project-headers.hmap -Xcc -I/Users/runner/work/trajetipa/trajetipa/ios/build/Release-iphoneos/include -Xcc -I/Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/DerivedSources-normal/arm64 -Xcc -I/Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/DerivedSources/arm64 -Xcc -I/Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/DerivedSources -emit-objc-header -emit-objc-header-path /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/Objects-normal/arm64/FixitTrajet-Swift.h -working-directory /Users/runner/work/trajetipa/trajetipa/ios -no-emit-module-separately-wmo
+
+SwiftCompile normal arm64 Compiling\ APIClient.swift,\ AppConfig.swift,\ FixitTrajetApp.swift,\ ListView.swift,\ Models.swift,\ PointQueue.swift,\ ReminderCenter.swift,\ RootView.swift,\ TripManager.swift,\ TripView.swift,\ GeneratedAssetSymbols.swift /Users/runner/work/trajetipa/trajetipa/ios/FixitTrajet/APIClient.swift /Users/runner/work/trajetipa/trajetipa/ios/FixitTrajet/AppConfig.swift /Users/runner/work/trajetipa/trajetipa/ios/FixitTrajet/FixitTrajetApp.swift /Users/runner/work/trajetipa/trajetipa/ios/FixitTrajet/Views/ListView.swift /Users/runner/work/trajetipa/trajetipa/ios/FixitTrajet/Models.swift /Users/runner/work/trajetipa/trajetipa/ios/FixitTrajet/PointQueue.swift /Users/runner/work/trajetipa/trajetipa/ios/FixitTrajet/ReminderCenter.swift /Users/runner/work/trajetipa/trajetipa/ios/FixitTrajet/Views/RootView.swift /Users/runner/work/trajetipa/trajetipa/ios/FixitTrajet/TripManager.swift /Users/runner/work/trajetipa/trajetipa/ios/FixitTrajet/Views/TripView.swift /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/DerivedSources/GeneratedAssetSymbols.swift (in target 'FixitTrajet' from project 'FixitTrajet')
+
+CompileSwift normal arm64 (in target 'FixitTrajet' from project 'FixitTrajet')
+    cd /Users/runner/work/trajetipa/trajetipa/ios
+    
+
+SwiftDriverJobDiscovery normal arm64 Compiling APIClient.swift, AppConfig.swift, FixitTrajetApp.swift, ListView.swift, Models.swift, PointQueue.swift, ReminderCenter.swift, RootView.swift, TripManager.swift, TripView.swift, GeneratedAssetSymbols.swift (in target 'FixitTrajet' from project 'FixitTrajet')
+
+SwiftDriver\ Compilation\ Requirements FixitTrajet normal arm64 com.apple.xcode.tools.swift.compiler (in target 'FixitTrajet' from project 'FixitTrajet')
+    cd /Users/runner/work/trajetipa/trajetipa/ios
+    builtin-Swift-Compilation-Requirements -- /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name FixitTrajet -O -whole-module-optimization -enforce-exclusivity\=checked @/Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/Objects-normal/arm64/FixitTrajet.SwiftFileList -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk -target arm64-apple-ios16.0 -g -Xfrontend -serialize-debugging-options -swift-version 5 -I /Users/runner/work/trajetipa/trajetipa/ios/build/Release-iphoneos -F /Users/runner/work/trajetipa/trajetipa/ios/build/Release-iphoneos -c -num-threads 3 -Xcc -ivfsstatcache -Xcc /var/folders/2s/vty41l455yv698g4xkgfv7z00000gn/C/com.apple.DeveloperTools/16.4-16F6/Xcode/SDKStatCaches.noindex/iphoneos18.5-22F76-a529daf784b3616c7c04a36aeb7f5c05.sdkstatcache -output-file-map /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/Objects-normal/arm64/FixitTrajet-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/Objects-normal/arm64/FixitTrajet.swiftmodule -validate-clang-modules-once -clang-build-session-file /var/folders/2s/vty41l455yv698g4xkgfv7z00000gn/C/org.llvm.clang/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/Objects-normal/arm64/FixitTrajet_const_extract_protocols.json -Xcc -iquote -Xcc /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/FixitTrajet-generated-files.hmap -Xcc -I/Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/FixitTrajet-own-target-headers.hmap -Xcc -I/Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/FixitTrajet-all-target-headers.hmap -Xcc -iquote -Xcc /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/FixitTrajet-project-headers.hmap -Xcc -I/Users/runner/work/trajetipa/trajetipa/ios/build/Release-iphoneos/include -Xcc -I/Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/DerivedSources-normal/arm64 -Xcc -I/Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/DerivedSources/arm64 -Xcc -I/Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/DerivedSources -emit-objc-header -emit-objc-header-path /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/Objects-normal/arm64/FixitTrajet-Swift.h -working-directory /Users/runner/work/trajetipa/trajetipa/ios -no-emit-module-separately-wmo
+
+SwiftMergeGeneratedHeaders /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/DerivedSources/FixitTrajet-Swift.h /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/Objects-normal/arm64/FixitTrajet-Swift.h (in target 'FixitTrajet' from project 'FixitTrajet')
+    cd /Users/runner/work/trajetipa/trajetipa/ios
+    builtin-swiftHeaderTool -arch arm64 /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/Objects-normal/arm64/FixitTrajet-Swift.h -o /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/DerivedSources/FixitTrajet-Swift.h
+
+Copy /Users/runner/work/trajetipa/trajetipa/ios/build/Release-iphoneos/FixitTrajet.swiftmodule/arm64-apple-ios.swiftmodule /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/Objects-normal/arm64/FixitTrajet.swiftmodule (in target 'FixitTrajet' from project 'FixitTrajet')
+    cd /Users/runner/work/trajetipa/trajetipa/ios
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/Objects-normal/arm64/FixitTrajet.swiftmodule /Users/runner/work/trajetipa/trajetipa/ios/build/Release-iphoneos/FixitTrajet.swiftmodule/arm64-apple-ios.swiftmodule
+
+Copy /Users/runner/work/trajetipa/trajetipa/ios/build/Release-iphoneos/FixitTrajet.swiftmodule/arm64-apple-ios.swiftdoc /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/Objects-normal/arm64/FixitTrajet.swiftdoc (in target 'FixitTrajet' from project 'FixitTrajet')
+    cd /Users/runner/work/trajetipa/trajetipa/ios
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/Objects-normal/arm64/FixitTrajet.swiftdoc /Users/runner/work/trajetipa/trajetipa/ios/build/Release-iphoneos/FixitTrajet.swiftmodule/arm64-apple-ios.swiftdoc
+
+Copy /Users/runner/work/trajetipa/trajetipa/ios/build/Release-iphoneos/FixitTrajet.swiftmodule/arm64-apple-ios.abi.json /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/Objects-normal/arm64/FixitTrajet.abi.json (in target 'FixitTrajet' from project 'FixitTrajet')
+    cd /Users/runner/work/trajetipa/trajetipa/ios
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/Objects-normal/arm64/FixitTrajet.abi.json /Users/runner/work/trajetipa/trajetipa/ios/build/Release-iphoneos/FixitTrajet.swiftmodule/arm64-apple-ios.abi.json
+
+Copy /Users/runner/work/trajetipa/trajetipa/ios/build/Release-iphoneos/FixitTrajet.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/Objects-normal/arm64/FixitTrajet.swiftsourceinfo (in target 'FixitTrajet' from project 'FixitTrajet')
+    cd /Users/runner/work/trajetipa/trajetipa/ios
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/Objects-normal/arm64/FixitTrajet.swiftsourceinfo /Users/runner/work/trajetipa/trajetipa/ios/build/Release-iphoneos/FixitTrajet.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo
+
+Ld /Users/runner/work/trajetipa/trajetipa/ios/build/Release-iphoneos/FixitTrajet.app/FixitTrajet normal (in target 'FixitTrajet' from project 'FixitTrajet')
+    cd /Users/runner/work/trajetipa/trajetipa/ios
+    /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios16.0 -isysroot /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk -Os -L/Users/runner/work/trajetipa/trajetipa/ios/build/EagerLinkingTBDs/Release-iphoneos -L/Users/runner/work/trajetipa/trajetipa/ios/build/Release-iphoneos -F/Users/runner/work/trajetipa/trajetipa/ios/build/EagerLinkingTBDs/Release-iphoneos -F/Users/runner/work/trajetipa/trajetipa/ios/build/Release-iphoneos -filelist /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/Objects-normal/arm64/FixitTrajet.LinkFileList -Xlinker -rpath -Xlinker @executable_path/Frameworks -dead_strip -Xlinker -object_path_lto -Xlinker /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/Objects-normal/arm64/FixitTrajet_lto.o -Xlinker -dependency_info -Xlinker /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/Objects-normal/arm64/FixitTrajet_dependency_info.dat -fobjc-link-runtime -L/Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/Objects-normal/arm64/FixitTrajet.swiftmodule -o /Users/runner/work/trajetipa/trajetipa/ios/build/Release-iphoneos/FixitTrajet.app/FixitTrajet
+
+LinkAssetCatalog /Users/runner/work/trajetipa/trajetipa/ios/FixitTrajet/Assets.xcassets (in target 'FixitTrajet' from project 'FixitTrajet')
+    cd /Users/runner/work/trajetipa/trajetipa/ios
+    builtin-linkAssetCatalog --thinned /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/assetcatalog_output/thinned --thinned-dependencies /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/assetcatalog_dependencies_thinned --thinned-info-plist-content /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/assetcatalog_generated_info.plist_thinned --unthinned /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/assetcatalog_output/unthinned --unthinned-dependencies /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/assetcatalog_dependencies_unthinned --unthinned-info-plist-content /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/assetcatalog_generated_info.plist_unthinned --output /Users/runner/work/trajetipa/trajetipa/ios/build/Release-iphoneos/FixitTrajet.app --plist-output /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/assetcatalog_generated_info.plist
+note: Emplaced /Users/runner/work/trajetipa/trajetipa/ios/build/Release-iphoneos/FixitTrajet.app/Assets.car (in target 'FixitTrajet' from project 'FixitTrajet')
+note: Emplaced /Users/runner/work/trajetipa/trajetipa/ios/build/Release-iphoneos/FixitTrajet.app/AppIcon76x76@2x~ipad.png (in target 'FixitTrajet' from project 'FixitTrajet')
+note: Emplaced /Users/runner/work/trajetipa/trajetipa/ios/build/Release-iphoneos/FixitTrajet.app/AppIcon60x60@2x.png (in target 'FixitTrajet' from project 'FixitTrajet')
+
+ProcessInfoPlistFile /Users/runner/work/trajetipa/trajetipa/ios/build/Release-iphoneos/FixitTrajet.app/Info.plist /Users/runner/work/trajetipa/trajetipa/ios/FixitTrajet/Info.plist (in target 'FixitTrajet' from project 'FixitTrajet')
+    cd /Users/runner/work/trajetipa/trajetipa/ios
+    builtin-infoPlistUtility /Users/runner/work/trajetipa/trajetipa/ios/FixitTrajet/Info.plist -producttype com.apple.product-type.application -genpkginfo /Users/runner/work/trajetipa/trajetipa/ios/build/Release-iphoneos/FixitTrajet.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -additionalcontentfile /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/assetcatalog_generated_info.plist -requiredArchitecture arm64 -o /Users/runner/work/trajetipa/trajetipa/ios/build/Release-iphoneos/FixitTrajet.app/Info.plist
+
+ExtractAppIntentsMetadata (in target 'FixitTrajet' from project 'FixitTrajet')
+    cd /Users/runner/work/trajetipa/trajetipa/ios
+    /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsmetadataprocessor --toolchain-dir /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --module-name FixitTrajet --sdk-root /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk --xcode-version 16F6 --platform-family iOS --deployment-target 16.0 --bundle-identifier fr.fixit-service.trajet --output /Users/runner/work/trajetipa/trajetipa/ios/build/Release-iphoneos/FixitTrajet.app --target-triple arm64-apple-ios16.0 --binary-file /Users/runner/work/trajetipa/trajetipa/ios/build/Release-iphoneos/FixitTrajet.app/FixitTrajet --dependency-file /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/Objects-normal/arm64/FixitTrajet_dependency_info.dat --stringsdata-file /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/Objects-normal/arm64/ExtractedAppShortcutsMetadata.stringsdata --source-file-list /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/Objects-normal/arm64/FixitTrajet.SwiftFileList --metadata-file-list /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/FixitTrajet.DependencyMetadataFileList --static-metadata-file-list /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/FixitTrajet.DependencyStaticMetadataFileList --swift-const-vals-list /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/Objects-normal/arm64/FixitTrajet.SwiftConstValuesFileList --compile-time-extraction --deployment-aware-processing --validate-assistant-intents --no-app-shortcuts-localization
+2026-11-19 16:35:19.866 appintentsmetadataprocessor[2683:11086] Starting appintentsmetadataprocessor export
+2026-11-19 16:35:19.871 appintentsmetadataprocessor[2683:11086] warning: Metadata extraction skipped. No AppIntents.framework dependency found.
+
+CopySwiftLibs /Users/runner/work/trajetipa/trajetipa/ios/build/Release-iphoneos/FixitTrajet.app (in target 'FixitTrajet' from project 'FixitTrajet')
+    cd /Users/runner/work/trajetipa/trajetipa/ios
+    builtin-swiftStdLibTool --copy --verbose --scan-executable /Users/runner/work/trajetipa/trajetipa/ios/build/Release-iphoneos/FixitTrajet.app/FixitTrajet --scan-folder /Users/runner/work/trajetipa/trajetipa/ios/build/Release-iphoneos/FixitTrajet.app/Frameworks --scan-folder /Users/runner/work/trajetipa/trajetipa/ios/build/Release-iphoneos/FixitTrajet.app/PlugIns --scan-folder /Users/runner/work/trajetipa/trajetipa/ios/build/Release-iphoneos/FixitTrajet.app/SystemExtensions --scan-folder /Users/runner/work/trajetipa/trajetipa/ios/build/Release-iphoneos/FixitTrajet.app/Extensions --platform iphoneos --toolchain /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --destination /Users/runner/work/trajetipa/trajetipa/ios/build/Release-iphoneos/FixitTrajet.app/Frameworks --strip-bitcode --strip-bitcode-tool /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip --emit-dependency-info /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/SwiftStdLibToolInputDependencies.dep --filter-for-swift-os
+Ignoring --strip-bitcode because --sign was not passed
+
+GenerateDSYMFile /Users/runner/work/trajetipa/trajetipa/ios/build/Release-iphoneos/FixitTrajet.app.dSYM /Users/runner/work/trajetipa/trajetipa/ios/build/Release-iphoneos/FixitTrajet.app/FixitTrajet (in target 'FixitTrajet' from project 'FixitTrajet')
+    cd /Users/runner/work/trajetipa/trajetipa/ios
+    /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/runner/work/trajetipa/trajetipa/ios/build/Release-iphoneos/FixitTrajet.app/FixitTrajet -o /Users/runner/work/trajetipa/trajetipa/ios/build/Release-iphoneos/FixitTrajet.app.dSYM
+
+AppIntentsSSUTraining (in target 'FixitTrajet' from project 'FixitTrajet')
+    cd /Users/runner/work/trajetipa/trajetipa/ios
+    /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsnltrainingprocessor --infoplist-path /Users/runner/work/trajetipa/trajetipa/ios/build/Release-iphoneos/FixitTrajet.app/Info.plist --temp-dir-path /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/ssu --bundle-id fr.fixit-service.trajet --product-path /Users/runner/work/trajetipa/trajetipa/ios/build/Release-iphoneos/FixitTrajet.app --extracted-metadata-path /Users/runner/work/trajetipa/trajetipa/ios/build/Release-iphoneos/FixitTrajet.app/Metadata.appintents --metadata-file-list /Users/runner/work/trajetipa/trajetipa/ios/build/FixitTrajet.build/Release-iphoneos/FixitTrajet.build/FixitTrajet.DependencyMetadataFileList --archive-ssu-assets
+2026-11-19 16:35:19.928 appintentsnltrainingprocessor[2687:11095] Parsing options for appintentsnltrainingprocessor
+2026-11-19 16:35:19.930 appintentsnltrainingprocessor[2687:11095] No AppShortcuts found - Skipping.
+
+RegisterExecutionPolicyException /Users/runner/work/trajetipa/trajetipa/ios/build/Release-iphoneos/FixitTrajet.app (in target 'FixitTrajet' from project 'FixitTrajet')
+    cd /Users/runner/work/trajetipa/trajetipa/ios
+    builtin-RegisterExecutionPolicyException /Users/runner/work/trajetipa/trajetipa/ios/build/Release-iphoneos/FixitTrajet.app
+
+Validate /Users/runner/work/trajetipa/trajetipa/ios/build/Release-iphoneos/FixitTrajet.app (in target 'FixitTrajet' from project 'FixitTrajet')
+    cd /Users/runner/work/trajetipa/trajetipa/ios
+    builtin-validationUtility /Users/runner/work/trajetipa/trajetipa/ios/build/Release-iphoneos/FixitTrajet.app -infoplist-subpath Info.plist
+
+Touch /Users/runner/work/trajetipa/trajetipa/ios/build/Release-iphoneos/FixitTrajet.app (in target 'FixitTrajet' from project 'FixitTrajet')
+    cd /Users/runner/work/trajetipa/trajetipa/ios
+    /usr/bin/touch -c /Users/runner/work/trajetipa/trajetipa/ios/build/Release-iphoneos/FixitTrajet.app
+
+** BUILD SUCCEEDED **
+

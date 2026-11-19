@@ -1,0 +1,76 @@
+Dict {
+    DTCompiler = com.apple.compilers.llvm.clang.1_0
+    UIRequiredDeviceCapabilities = Array {
+        arm64
+    }
+    CFBundleInfoDictionaryVersion = 6.0
+    UIRequiresFullScreen = true
+    DTPlatformVersion = 18.5
+    CFBundleName = FixitTrajet
+    DTSDKName = iphoneos18.5
+    CFBundleIcons = Dict {
+        CFBundlePrimaryIcon = Dict {
+            CFBundleIconFiles = Array {
+                AppIcon60x60
+            }
+            CFBundleIconName = AppIcon
+        }
+    }
+    UILaunchScreen = Dict {
+        UIColorName = AccentColor
+    }
+    NSLocationAlwaysAndWhenInUseUsageDescription = Autorisez « Toujours » pour que le suivi continue écran verrouillé pendant vos trajets. La position n'est jamais envoyée en dehors d'un trajet démarré.
+    CFBundleDisplayName = FixIT Trajet
+    LSApplicationQueriesSchemes = Array {
+        waze
+        comgooglemaps
+    }
+    NSLocationWhenInUseUsageDescription = FixIT Trajet partage votre position avec le client uniquement pendant le trajet vers son domicile, pour lui indiquer votre heure d'arrivée.
+    UIBackgroundModes = Array {
+        location
+        fetch
+    }
+    DTSDKBuild = 22F76
+    NSAccentColorName = AccentColor
+    CFBundleShortVersionString = 1.2.0
+    CFBundleSupportedPlatforms = Array {
+        iPhoneOS
+    }
+    UISupportedInterfaceOrientations = Array {
+        UIInterfaceOrientationPortrait
+    }
+    BuildMachineOSBuild = 24H232
+    DTPlatformBuild = 22F76
+    BGTaskSchedulerPermittedIdentifiers = Array {
+        fr.fixit-service.trajet.refresh
+    }
+    CFBundlePackageType = APPL
+    CFBundleDevelopmentRegion = en
+    DTXcodeBuild = 16F6
+    CFBundleVersion = 3
+    MinimumOSVersion = 16.0
+    UIDeviceFamily = Array {
+        1
+    }
+    CFBundleIdentifier = fr.fixit-service.trajet
+    DTXcode = 1640
+    CFBundleExecutable = FixitTrajet
+    CFBundleIcons~ipad = Dict {
+        CFBundlePrimaryIcon = Dict {
+            CFBundleIconFiles = Array {
+                AppIcon60x60
+                AppIcon76x76
+            }
+        }
+    }
+    DTPlatformName = iphoneos
+    ITSAppUsesNonExemptEncryption = false
+    CFBundleURLTypes = Array {
+        Dict {
+            CFBundleURLName = fr.fixit-service.trajet
+            CFBundleURLSchemes = Array {
+                fixittrajet
+            }
+        }
+    }
+}
